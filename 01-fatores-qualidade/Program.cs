@@ -14,6 +14,14 @@ class Program
         {
             FatoresQualidade.Legivel.CalculoLegivel.Executar();
         }
+        else if (opcao == "nao-modular")
+        {
+            FatoresQualidade.NaoModular.CalculoNaoModular.Executar();
+        }
+        else if (opcao == "manutenivel")
+        {
+            FatoresQualidade.Manutenivel.CalculoManutenivel.Executar();
+        }
         else
         {
             Console.WriteLine("Opção inválida. Use 'legivel' ou 'simples'.");
